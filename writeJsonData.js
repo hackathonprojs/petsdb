@@ -1,5 +1,5 @@
 const irisnative = require('intersystems-iris-native')
-const jsonData = require('petJson');
+const jsonData = require('./petJson');
 
 
 // Modify connection info based on environment
