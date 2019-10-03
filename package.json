@@ -1,0 +1,15 @@
+{
+  "name": "petdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "petJson.js",
+  "dependencies": {
+    "intersystems-iris-native": "file:intersystems-iris-native"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
