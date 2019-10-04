@@ -18,6 +18,7 @@
 // [START gae_node_request_example]
 const express = require('express');
 const WritePetData = require('./writePetData');
+const WriteFlightData = require('./writeFlightData');
 
 const app = express();
 
@@ -33,7 +34,12 @@ app.use(express.static('public'));
 app.get('/writePetData', (req, res) => {
   WritePetData.writeOne();
   res.end();
-})
+});
+
+app.get('/writeFlightData', (req, res) => {
+  WriteFlightData.writeOne();
+  res.end();
+});
 
 // Start the server
 const PORT = process.env.PORT || 8080;

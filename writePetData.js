@@ -89,12 +89,14 @@ const connection = irisnative.createConnection(connectionInfo);
 //create IRIS instance
 const dbnative = connection.createIris();
 
-console.log('writing the data into intersystems db from a json data');
+
 
 /**
  * write one piece of data
  */
 function writeOne() {
+  console.log('writing pet data into intersystems db from a json data');
+
   let elem = sampleData;
   sampleData.id = sampleData.id++;
   let id = sampleData.id;
