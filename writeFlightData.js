@@ -32,8 +32,8 @@ function writeOne() {
   console.log('writing flight data into intersystems db from a json data');
 
   let elem = getRandomData(sampleData);
-  sampleData.id = sampleData.id++;
-  let id = sampleData.id;
+  elem.id = new Date().getTime();
+  let id = elem.id;
 
   console.log(elem);
   for (let prop in elem) {
