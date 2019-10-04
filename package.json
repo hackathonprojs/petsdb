@@ -5,7 +5,8 @@
   "main": "petJson.js",
   "dependencies": {
     "express": "^4.17.1",
-    "intersystems-iris-native": "file:intersystems-iris-native"
+    "intersystems-iris-native": "file:intersystems-iris-native",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {},
   "scripts": {
