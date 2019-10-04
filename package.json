@@ -4,6 +4,7 @@
   "description": "",
   "main": "petJson.js",
   "dependencies": {
+    "express": "^4.17.1",
     "intersystems-iris-native": "file:intersystems-iris-native"
   },
   "devDependencies": {},
